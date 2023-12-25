@@ -42,8 +42,6 @@ order by Product_Category
 --looking in to net profit and total sales 
 select round(sum(profit),2) as net_profit, round(sum(sales),2) as Total_sales from salesstore
 
---product category That Give Most Loss To This Store ?
-  
 
 
 --category that gives highest profit
